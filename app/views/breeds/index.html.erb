@@ -1,0 +1,16 @@
+<% require "json" %>
+<% require 'open-uri' %>
+<% url = 'https://dog.ceo/api/breeds/list' %>
+<% breeds_list = open(url).read %>
+<% breeds = JSON.parse(breeds_list)["message"] %>
+
+<h1>Breeds index</h1>
+
+<ul>
+<% breeds.each do |breed|%>
+
+  <li><%= link_to breed, show_path(breed) %></li>
+<% end %>
+</ul> 
+  
+

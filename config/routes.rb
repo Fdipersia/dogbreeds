@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'pages/picture'
-
-  root to: 'pages#breeds'
+  get 'breeds/:name', to: 'breeds#show', as: :show
+  root to: 'breeds#index'
 end

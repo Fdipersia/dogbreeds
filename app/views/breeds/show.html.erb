@@ -1,0 +1,9 @@
+<% require "json" %>
+<% require 'open-uri' %>
+<% url=("https://dog.ceo/api/breed/#{params[:name]}/images/random") %>
+<% picture_json = open(url).read %>
+<% picture = JSON.parse(picture_json)["message"] %>
+
+<h1><%= params[:name].capitalize %></h1>
+<%= image_tag url=(picture), alt: "alttext" %>
+
