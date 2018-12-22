@@ -9,7 +9,7 @@
 <ul>
 <% breeds.each do |breed|%>
 
-  <li><%= link_to breed, show_path(breed) %></li>
+  <li><%= link_to breed.capitalize, show_path(breed) %></li>
 <% end %>
 </ul> 
   

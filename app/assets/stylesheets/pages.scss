@@ -1,3 +1,32 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #dcedc1;
+  text-align: center;
+}
+
+ul{
+  width: 100px;
+  padding: 35px;
+  padding-top: 10px;
+  margin: 15px auto;
+  text-align: left;
+  background-color: #f3ecd3;
+  box-shadow: 2px 2px 2px #51e3d4;
+  border: 1px solid #51e3d4;
+  border-radius: 4px;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  border-radius: 4px;
+  border: 2px solid black;
+  display: block;
+  margin: 15px auto;
+}
+
