@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para correrlo localmente usted debe tener instalado Rails
 
-Things you may want to cover:
+Descargar repositorio, ir en su consola a dicho repositorio y correr el comando > rails s
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Luego en su navegador de internet ir al localhost indicado por el servidor
