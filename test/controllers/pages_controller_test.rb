@@ -2,13 +2,12 @@ require 'test_helper'
 
 class PagesControllerTest < ActionDispatch::IntegrationTest
   test "should get breeds" do
-    get pages_breeds_url
+    get root_path
     assert_response :success
   end
 
   test "should get picture" do
-    get pages_picture_url
+    get show_path("briard")
     assert_response :success
   end
-
 end

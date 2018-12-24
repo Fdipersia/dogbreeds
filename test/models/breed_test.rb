@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class BreedTest < ActiveSupport::TestCase
-  # test "the truth" do
+  # test "breed list" do
   #   assert true
   # end
 end
